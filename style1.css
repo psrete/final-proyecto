@@ -28,16 +28,25 @@ font-family: 'Square Peg', cursive;*/
     position: fixed;
     background-color: rgba(255, 255, 255, 0.854);
 }
-
+ .container-fluid {
+     display: flex;
+     justify-content: space-around;
+ }
 .menu {
     /* background-color: khaki; */
     height: 100px;
 }
 
 /*lista del menu*/
-.lista-menu {
+.container-fluid {
     display: flex;
     list-style: none;
+    flex-direction: column;
+    position: fixed;
+    padding: 20px;
+    z-index: 1;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.285);
 }
 
 .item {
